@@ -100,7 +100,7 @@ int main(void) {
 	Clock60MHz();
 	GPIOA_ModeCfg_Out(GPIO_Pin_8);
 	GPIOA_SetBits(GPIO_Pin_8);
-	SysTick->CMP = SysTick_LOAD_RELOAD_Msk -1; // SysTick IS COUNTING DOWN!!
+	SysTick->CMP = SysTick_LOAD_RELOAD_Msk -1;
 	SysTick->CTLR = SysTick_CTLR_INIT |
 					SysTick_CTLR_STRE |
 					SysTick_CTLR_STCLK |

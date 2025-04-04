@@ -1,6 +1,6 @@
 # ch582_minimal
 WCH CH582 minimal example without SDK.\
-Just the pointer #defines in CH582SFR.h from the official SDK, a linker script and the startup assembly.
+Just the pointer #defines in CH583SFR.h from the official SDK, a linker script and the startup assembly (582 and 583 are the same in this).
 The C source flashes the LED on pin 8 of the WeAct module, and sleeps in between.
 
 # compile

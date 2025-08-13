@@ -68,6 +68,7 @@ def main():
         if args.terminal:
             open_terminal()
     elif args.terminal:
+        reset() # on ch582 a reset is needed before terminal
         open_terminal()
     elif args.dump:
         dump(args.dump, args.length)
